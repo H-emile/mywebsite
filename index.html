@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="胡扬健的第一个网页，网页设计课程作业">
+    <title>胡扬健的第一个网页</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- 页头：网站标题与导航 -->
+    <header class="site-header">
+        <h1>胡扬健的第一个网页</h1>
+        <p class="slogan">Hello World！这是我亲手制作的第一个网页</p>
+        <nav class="site-nav">
+            <a href="#intro">自我介绍</a>
+            <a href="#courses">课程表</a>
+            <a href="#goals">学习目标</a>
+            <a href="#links">常用网站</a>
+            <a href="#interact">互动一下</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <!-- 一、自我介绍 -->
+        <section id="intro" class="card">
+            <h2>一、自我介绍</h2>
+            <p>大家好！我是 <strong>胡扬健</strong>（学号：2408090602033），是一名网页设计课程的初学者。这是我利用 HTML、CSS 和 JavaScript 制作的第一个网页，虽然还很简单，但每一行代码都是我自己敲出来的。</p>
+            <h3>我的兴趣爱好</h3>
+            <ul>
+                <li>打篮球、跑步等体育运动</li>
+                <li>听音乐、看电影</li>
+                <li>研究电脑与新技术</li>
+            </ul>
+        </section>
+
+        <!-- 二、课程表 -->
+        <section id="courses" class="card">
+            <h2>二、本学期课程表</h2>
+            <table>
+                <caption>本周主要课程安排</caption>
+                <tr>
+                    <th>时间</th>
+                    <th>星期一</th>
+                    <th>星期三</th>
+                    <th>星期五</th>
+                </tr>
+                <tr>
+                    <td>上午 1-2 节</td>
+                    <td>高等数学</td>
+                    <td>大学英语</td>
+                    <td>网页设计</td>
+                </tr>
+                <tr>
+                    <td>上午 3-4 节</td>
+                    <td>程序设计</td>
+                    <td>体育</td>
+                    <td>高等数学</td>
+                </tr>
+                <tr>
+                    <td>下午 5-6 节</td>
+                    <td>大学英语</td>
+                    <td>网页设计</td>
+                    <td>自习</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- 三、学习目标 -->
+        <section id="goals" class="card">
+            <h2>三、本学期学习目标</h2>
+            <ol>
+                <li>熟练掌握 HTML 常用标签，能独立编写结构清晰的网页；</li>
+                <li>学会使用 CSS 对网页进行美化和布局；</li>
+                <li>了解 JavaScript，让网页实现简单的动态效果；</li>
+                <li>独立完成个人网站并成功部署到互联网上。</li>
+            </ol>
+            <blockquote>“冰冻三尺，非一日之寒；滴水穿石，非一日之功。”—— 与所有初学者共勉</blockquote>
+        </section>
+
+        <!-- 四、常用学习网站 -->
+        <section id="links" class="card">
+            <h2>四、常用学习网站</h2>
+            <ul class="link-list">
+                <li><a href="https://www.runoob.com" target="_blank">菜鸟教程 —— 编程入门首选</a></li>
+                <li><a href="https://www.w3school.com.cn" target="_blank">W3School —— HTML/CSS 在线教程</a></li>
+                <li><a href="https://developer.mozilla.org/zh-CN/" target="_blank">MDN Web 文档 —— 权威 Web 技术文档</a></li>
+            </ul>
+        </section>
+
+        <!-- 五、我的校园 -->
+        <section class="card">
+            <h2>五、我的校园</h2>
+            <figure>
+                <img src="images/campus.jpg" alt="校园风景图">
+                <figcaption>图：美丽的校园</figcaption>
+            </figure>
+        </section>
+
+        <!-- 六、互动一下 -->
+        <section id="interact" class="card">
+            <h2>六、互动一下</h2>
+            <p>当前时间：<span id="clock">加载中……</span></p>
+            <button id="btnHello" type="button">点我打个招呼</button>
+            <p id="output">这里会显示 JavaScript 输出的内容。</p>
+        </section>
+
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="site-footer">
+        <p>© 2026 胡扬健 | 网页设计课程作业 | 制作日期：2026年10月6日</p>
+        <p>联系我：<a href="mailto:student@example.com">student@example.com</a></p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
